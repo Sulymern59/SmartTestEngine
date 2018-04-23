@@ -61,7 +61,7 @@ include('includes/menu.php');
           <input type="radio" name="mulcs" required= "1">Correct Answer?
         </label>
           </div>
-          <button type="submit" class="btn btn-primary agb">Add Question</button>
+          <button type="submit" class="btn agb" style="background-color: purple;color: white">Add Question</button>
       </form>
      </div>
     </div>
