@@ -1,7 +1,6 @@
 <?php
 include 'lib/Session.php';
  Session::init();
- include('includes/header_slider.php');
 include('includes/header.php');
 include('includes/menu.php');
 ?>
