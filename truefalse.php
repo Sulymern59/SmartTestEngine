@@ -52,7 +52,7 @@ include('includes/menu.php');
               <input type="radio" name="tfcs" value="answer2">Correct Answer?
 			  </label>
           </div>
-          <button type="submit" class="btn btn-primary agb">Add Question</button>
+          <button type="submit" class="btn" style="background-color: purple;color: white">Add Question</button>
       </form>
      </div>
     </div>
