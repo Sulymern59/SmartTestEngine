@@ -24,6 +24,25 @@ include('includes/menu.php');
     } 
  }
 ?>
+<script>  
+function addValueToRadioBtn() {
+    if (document.getElementById("option1").checked == true){
+        document.getElementById("option1").value = document.getElementById("mulfiop").value;
+    }
+    //added an alert box just to test that the value has been updated
+    //alert(document.getElementById("amntother").value);
+	if (document.getElementById("option2").checked == true){
+        document.getElementById("option2").value = document.getElementById("mulsiop").value;
+    }
+	if (document.getElementById("option3").checked == true){
+        document.getElementById("option3").value = document.getElementById("multhop").value;
+    }
+	if (document.getElementById("option4").checked == true){
+        document.getElementById("option4").value = document.getElementById("mulfoop").value;
+    }
+} 
+
+</script>
 <div class="container bg-light-gray">
  <div class="main-content">
   <div class="featured-content">
@@ -38,30 +57,30 @@ include('includes/menu.php');
           </div>
           <div class="form-group hgad">
             <label style="margin-right: 70px;">First Option: </label>
-            <input type="text" class="form-control adgrfs" name="mulfiop"  placeholder="First Option" required="1">
-			<label style="cursor:pointer; color:#06F;">
-          <input type="radio" name="mulcs"  required="1">Correct Answer?
+            <input type="text" class="form-control adgrfs" id="mulfiop" name="mulfiop"  placeholder="First Option" required="1">
+			<label style="cursor:pointer; color:purple;">
+          <input type="radio" name="mulcs"  required="1" id="option1" value="" onclick="addValueToRadioBtn();">Correct Answer?
           </div>
           <div class="form-group hgad">
             <label style="margin-right: 48px;">Second Option: </label>
-            <input type="text" class="form-control adgrfs" name="mulsiop" placeholder="Second Option" required="1">
-			<label style="cursor:pointer; color:#06F;">
-          <input type="radio" name="mulcs"  required="1">Correct Answer?
+            <input type="text" class="form-control adgrfs" id="mulsiop" name="mulsiop" placeholder="Second Option" required="1">
+			<label style="cursor:pointer; color:purple;">
+          <input type="radio" name="mulcs"  required="1" id="option2" value="" onclick="addValueToRadioBtn();">Correct Answer?
           </div>
           <div class="form-group hgad">
             <label style="margin-right: 65px;">Third Option: </label>
-            <input type="text" class="form-control adgrfs" name="multhop" placeholder="Third Option" required="1">
-			<label style="cursor:pointer; color:#06F;">
-			<input type="radio" name="mulcs" required="1">Correct Answer?
+            <input type="text" class="form-control adgrfs" id="multhop" name="multhop" placeholder="Third Option" required="1">
+			<label style="cursor:pointer; color:purple;">
+			<input type="radio" name="mulcs" required="1" id="option3" value="" onclick="addValueToRadioBtn();">Correct Answer?
           </div>
           <div class="form-group hgad">
             <label style="margin-right: 54px;">Fourth Option: </label>
-            <input type="text" class="form-control adgrfs" name="mulfoop" placeholder="Fourth Option" required="1">
-			<label style="cursor:pointer; color:#06F;">
-          <input type="radio" name="mulcs" required= "1">Correct Answer?
+            <input type="text" class="form-control adgrfs" id="mulfoop" name="mulfoop" placeholder="Fourth Option" required="1">
+			<label style="cursor:pointer; color:purple;">
+          <input type="radio" name="mulcs" required= "1" id="option4" value="" onclick="addValueToRadioBtn();">Correct Answer?
         </label>
           </div>
-          <button type="submit" class="btn agb" style="background-color: purple;color: white">Add Question</button>
+          <button type="submit" class="btn btn-primary agb">Add Question</button>
       </form>
      </div>
     </div>
