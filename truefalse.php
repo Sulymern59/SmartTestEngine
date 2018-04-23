@@ -24,6 +24,19 @@ include('includes/menu.php');
     } 
  }
 ?>
+<script>  
+function addValueToRadioBtn() {
+    if (document.getElementById("tftf").checked == true){
+        document.getElementById("tftf").value = document.getElementById("tffiop").value;
+    }
+    //added an alert box just to test that the value has been updated
+    //alert(document.getElementById("amntother").value);
+	if (document.getElementById("tftff").checked == true){
+        document.getElementById("tftff").value = document.getElementById("tfsiop").value;
+    }
+} 
+
+</script>
 <div class="container bg-light-gray">
  <div class="main-content">
   <div class="featured-content">
@@ -41,18 +54,18 @@ include('includes/menu.php');
             <input type="file" class="form-control adgrfs" name="image">
           </div>
           <div class="form-group hgad">
-            <input type="text" class="form-control adgrfs" name="tffiop"  value="True" readonly required="1">
+            <input type="text" class="form-control adgrfs" name="tffiop" id="tffiop"  value="True" readonly required="1">
 			<label style="cursor:pointer; color:#06F;">
-            <input type="radio" name="tfcs" value="answer1">Correct Answer?</label>
+            <input type="radio" name="tfcs" value="" id="tftf" onclick="addValueToRadioBtn();">Correct Answer?</label>
           </div>
             
           <div class="form-group hgad">
-            <input type="text" class="form-control adgrfs" name="tfsiop"  value="False" readonly required="1">
+            <input type="text" class="form-control adgrfs" name="tfsiop" id="tfsiop"  value="False" readonly required="1">
 			<label style="cursor:pointer; color:#06F;">
-              <input type="radio" name="tfcs" value="answer2">Correct Answer?
+              <input type="radio" name="tfcs" value="" id="tftff" onclick="addValueToRadioBtn();">Correct Answer?
 			  </label>
           </div>
-          <button type="submit" class="btn" style="background-color: purple;color: white">Add Question</button>
+          <button type="submit" class="btn btn-primary agb">Add Question</button>
       </form>
      </div>
     </div>
