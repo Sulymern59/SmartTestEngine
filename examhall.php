@@ -52,8 +52,7 @@ include('includes/menu.php');
          <p>5. Time For Exam: <strong><?php echo $mi." Minutes ".$se." Seconds"; ?></strong></p>
 
         <h2>Some Rules : </h2>
-        <p class="hgad"><strong>1. If you reload your current url or back to ure previous questions,You will be suspended & You are no logner available to attain this exam.</strong></p>
-        <p><strong>2. Once you start your exam,then back to the exam starting page you will be suspended.</strong></p>
+        <p><strong> Once you start your exam,you cannot go back to the previous question.</strong></p>
      </div>
     </div>
      <?php 
@@ -94,7 +93,7 @@ include('includes/menu.php');
         elseif($st==$dt1 || $st>$dt1){ ?>
         <a href="questionpaper.php?exgid=<?php echo $egid ;?>&egtok=<?php echo $gtok;?>&ttime=<?php echo $ttime;?>&toque=<?php echo $tq; ?>"><button class="btn btn-primary esb">Start Exam</button></a>
       <?php  } else{?>
-          <button class="btn btn-primary esb">Exam Not Start</button></a>
+          <button class="btn" style="background-color: purple;color: white">Exam Not Start</button></a>
        <?php } ?>
      </div>
     </div>
