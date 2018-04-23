@@ -18,8 +18,8 @@ include('includes/menu.php');
   <div class="featured-content">
     <div class="row-fluid">
      <div class="span8 offset3">
-        <a href="multiplequestion.php?mulq=<?php echo $aqgid; ?>"><input type="submt" name="multiple" value="Multiple Questions" class="btn" style="background-color:purple"></a>
-		<a href="truefalse.php?trefaq=<?php echo $aqgid; ?>"><input type="submt" name="multiple" value="True Or False" class="btn" style="background-color:purple"></a>
+        <a href="multiplequestion.php?mulq=<?php echo $aqgid; ?>"><input type="submt" name="multiple" value="Multiple Questions" class="btn" style="background-color:purple;color:white"></a>
+		<a href="truefalse.php?trefaq=<?php echo $aqgid; ?>"><input type="submt" name="multiple" value="True Or False" class="btn" style="background-color:purple;color:white"></a>
      </div>
     </div>
   </div>
