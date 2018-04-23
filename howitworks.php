@@ -9,32 +9,33 @@ include('includes/menu.php');
   <div class="featured-content">
      <div class="row-fluid">
      <div class="span10 offset1 aboutp">
-       <h2 style="margin-bottom: 15px;font-size: 30px;">Who Takes The Exam(Administrators):</h2>
+       <h2>FOR THE TUTORS</h2>
+                    <ol>
+                        <li>
+                        <p>Register and create an exam.You can create multiple exams</p></li>
 
-        <p><strong>1. First you have to "Log In"  from 'Administrators' tab.</strong></p> 
-        <p><strong>2. If you don't have any id,first you have to "Registers" from "Administrators" tab & then 'Log In' from 'Administrators' tab.</strong></p>
-        <p><strong>3. When you sign in,you automatically get your registration id. It is also mentioned in the term of instructor id.</strong></p>
-        <p><strong>4. Then You have to create exam groups. Here you can  set total questions, Questions you want to show,time per questions etc for the examinees.</strong></p>
-        <p><strong>5. Each Group has automatically a group token.</strong></p>
-        <p><strong>6. Then you have to set the questions. You can set 'MCQ' or 'True-False' questions.</strong></p>
-        <p><strong>7. Notice that,If you don't set the minimum questions,examinees will not able to participate the exam. Minimum questions means,questions you want to show the examinees. Suppose,you want to set the total questions 100 &  want to show 25 questions for your examinees randomly. So,exams will not be start until you set the minimum 25 questions.</strong></p>
-        <p><strong>8. For User Connection you have to provide your 'registration id'(Instructor id) & Group token for set up the connection.</strong></p>
-        <p><strong>9. Users are connected each group only participate the exams.</strong></p>
-        <p><strong>10. You can see examinees details who are connected each group.</strong></p>
-        <p><strong>11. You can delete the users from any exam groups if you needed.</strong></p>
-        <p><strong>12. You can show the results in each user for each exam groups.</strong></p>
-        <p><strong>13. Users can't show the results until you published the exam groups results.</strong></p>
-        <p><strong>14. You can create & manage as many exam groups as you need.</strong></p>
+                        <li><p>You can set the number of questions you want to show to the students.Suppose you want to make 100 questions.you have 10 students.You want each student will get 25 of questions randomly from 100 questions.you can do it there.</p></li>
 
-         <h2 style="margin-bottom: 15px;font-size: 30px;">Who Participates The Exam(Examinees):</h2>
-         
-         <p><strong>1. First you have to "Log In"  from 'Test Takes' tab.</strong></p> 
-        <p><strong>2. If you don't have any id,first you have to "Registers" from "Test Takers" tab & then 'Log In' from 'Test Takers' tab.</strong></p>
-        <p><strong>3. Then you have to connect the group to participate the exams.</strong></p>
-        <p><strong>4. To connect the group you need the group id & instructor id for that group.So,please contact you administrators to get the requirements.</strong></p>
-        <p><strong>5. After connected any group,you can see when exam will be started.You can participate any time between exam srart & end.</strong></p>
-        <p><strong>6. Once you start your exam,you can't participate twice. If you scroll back to home page after starting exam,your exam will be finished & can't longer be available for you.</strong></p>
-        <p><strong>7. After successfully finishing your exam,you have to wait to see the result until your admin published that result.</strong></p>
+                        <li><p>You will have to set the per question time limit.</p></li>
+
+                        <li><p>You will have to set the number of students who will perticipate in the exam.Suppose you want 5 students will perticipate in the exam.then you have to enter 5 and you will get 5 unique token IDs for that exam.You will have to give each token ID to each student.Students who will register using these token ID's can perticiapte in the exam.</p></li>
+
+                        <li><p>Then you have set questions for the exam.</p></li>
+
+                        <li><p>Then you must have to adjust the starting time and ending time of the exam.Student will not be able to perticipate in the exam before the starting time.They will not be able to perticipate in the exam after the ending time.</p></li>
+
+                        <li><p>After the end of the exam go to the 'ASSIGN NUMBER OF STUDENTS FOR THIS EXAM' option and there you can publish the result to the students.Then the students will be able see their marks as well as their competitors marks.They will also see the answers of the questions.</p></li>
+                    </ol>
+                <h2>FOR THE STUDENTS</h2>
+                <ol>
+                <li><p>You have to register with the token ID you get from your teacher.</p></li>
+
+                <li><p>You can perticipate in an exam once.</p></li>
+
+                <li><p>If you do not give answer to a question within the given time.You will get zero marks for that question.</p></li>
+
+                <li><p>Don't try to cheat by changing the url or trying to go back when the exam is running.Your account will get suspension.</p></li>
+                </ol>
 
 
 

@@ -1,17 +1,16 @@
-<div class="wrap-bg">
-<div class="site-header">
-    <div class="logo">
-        <img src="img/logo.png">
-        <h1><span style="text-transform: none;">QuickQuizzes</span> By RUMMAN</h1>
+<div class="wrap-bg bg-light-gray" >
+<div class="site-header bg-light-gray">
+    <div class="logo" style="background-color:purple">
+        <h1><span style="text-transform: none;">SmartTestEngine</span> (Group A)</h1>
     </div>
 </div>
 <div class="container">
-<div class="banner">
-   <div class="carousel slide" id="myCarousel">
+<div class="banner" >
+   <div class="carousel slide" id="myCarousel" >
             <!-- Carousel items -->
-            <div class="carousel-inner">
+            <div class="carousel-inner" >
                 <div class="item">
-                    <img src="img/ms4d.jpg" alt="">
+                    <img src="img/msl.png" alt="">
                     <div class="carousel-caption">
                      <!-- <h1>Exam System</h1>
                       <h2>Lorem Ipsum</h2>-->
@@ -25,7 +24,7 @@
                     </div>
                 </div>
                 <div class="item active">
-                    <img src="img/ams3.jpg" alt="">
+                    <img src="img/online.jpg" alt="">
                     <div class="carousel-caption">
                      <!-- <h1>Online Exam</h1>
                       <h2>Lorem Ipsum</h2>-->
@@ -38,7 +37,7 @@
                     </div>
                     </div>
                 </div>
-                                                  
+                    
              </div>
         <!-- Carousel nav -->
         <a data-slide="prev" href="#myCarousel" class="carousel-control left"><i class="fw-icon-chevron-left"></i></a>
