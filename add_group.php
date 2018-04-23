@@ -18,8 +18,8 @@ if(($_SERVER['REQUEST_METHOD']=='POST')){
  <section>
  	<div class="row-fluid">
       <div class="span8 offset3">
-         <h2 style="margin-bottom: 5px;">Some Rulus:</h2>
-         <p><strong>1. </strong>All field Must Be Fillid Up.</p>
+         <h2 style="margin-bottom: 5px;">Some Rules:</h2>
+         <p><strong>1. </strong>All field Must Be Filled Up.</p>
          <p><strong>2. </strong>You Can Set Total Question & You Have Option To Show Limited Question For An Exam.</p>
          <p><strong>3. </strong>You Can Set Up Exam Running time.(e.g Students must take exams within 2 hours)</p>
          <p><strong>4. </strong>Exam Running Time & Time Per Question Count Minutes & Seconds Time Format Respectively.</p>
