@@ -1,6 +1,7 @@
 <?php
 include 'lib/Session.php';
  Session::init();
+ include('includes/header_slider.php');
 include('includes/header.php');
 include('includes/menu.php');
 ?>
@@ -32,7 +33,7 @@ include('includes/menu.php');
                   </div>
                   <div class="tab-pane fade" id="loginadmin">
                           <div class="media">
-                          <img src="img/newsmart.png" class="spacing-r" alt="login">
+                          <img src="img/login.png" class="spacing-r" alt="">
                             <div class="media-body">
                               <h1 class="media-heading ruler-bottom">Tutor Login Page</h1>
                               <p style="font-size: 16px;">Login as a tutor to create exams.</p>
@@ -43,9 +44,9 @@ include('includes/menu.php');
                         </div>
                   </div>
                   
-		<div class="tab-pane fade" id="praesent">
-                     <div class="media">
-                        <img src="img/register.png" class="spacing-r" alt="register">
+				  <div class="tab-pane fade" id="praesent">
+                          <div class="media">
+                        <img src="img/register.png" class="spacing-r" alt="">
                             <div class="media-body">
                               <h1 class="media-heading ruler-bottom">Administrator Login</h1>
                               <p style="font-size: 16px;">Login as an Administrator to create user accounts</p>
