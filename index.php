@@ -32,7 +32,7 @@ include('includes/menu.php');
                   </div>
                   <div class="tab-pane fade" id="loginadmin">
                           <div class="media">
-                          <img src="img/login.png" class="spacing-r" alt="">
+                          <img src="img/login2.jpg" class="spacing-r" alt="">
                             <div class="media-body">
                               <h1 class="media-heading ruler-bottom">Tutor Login Page</h1>
                               <p style="font-size: 16px;">Login as a tutor to create exams.</p>
