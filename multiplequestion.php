@@ -118,7 +118,7 @@ function addValueToRadioBtn() {
                <td><?php echo $value['multhop']; ?></td>
                <td><?php echo $value['mulfoop']; ?></td>
                <td><?php echo $value['mulcs']; ?></td>
-               <td><a href="deletemulques.php?demq=<?php echo $value['id']; ?>"><button class="btn btn-primary">Delete</button></a></td>
+               <td><a href="deletemulques.php?demq=<?php echo $value['id']; ?>"><button class="btn" style="background-color: purple">Delete</button></a></td>
             </tr>
             <?php } }?>
             </tbody>             
