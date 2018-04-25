@@ -52,7 +52,7 @@ if(($_SERVER['REQUEST_METHOD']=='POST')){
 							<i class="fw-icon-lock icon-large"></i>
 					</p>
 					<p class="submit">
-						<button type="submit" name="submit"><i class="fw-icon-arrow-right icon-large"></i></button>
+						<a href=admin1dashboard.php class=" btn fw-icon-arrow-right icon-large">Submit</a>
 					</p>
 				</form>
 			</section>
