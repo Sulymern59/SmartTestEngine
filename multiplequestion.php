@@ -80,7 +80,7 @@ function addValueToRadioBtn() {
           <input type="radio" name="mulcs" required= "1" id="option4" value="" onclick="addValueToRadioBtn();">Correct Answer?
         </label>
           </div>
-          <button type="submit" class="btn btn-primary agb">Add Question</button>
+          <button type="submit" class="btn agb" style="background-color: purple;color: white">Add Question</button>
       </form>
      </div>
     </div>
@@ -118,7 +118,7 @@ function addValueToRadioBtn() {
                <td><?php echo $value['multhop']; ?></td>
                <td><?php echo $value['mulfoop']; ?></td>
                <td><?php echo $value['mulcs']; ?></td>
-               <td><a href="deletemulques.php?demq=<?php echo $value['id']; ?>"><button class="btn" style="background-color: purple">Delete</button></a></td>
+               <td><a href="deletemulques.php?demq=<?php echo $value['id']; ?>"><button class="btn" style="background-color: purple;color: white">Delete</button></a></td>
             </tr>
             <?php } }?>
             </tbody>             
