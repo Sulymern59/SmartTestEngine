@@ -65,7 +65,7 @@ function addValueToRadioBtn() {
               <input type="radio" name="tfcs" value="" id="tftff" onclick="addValueToRadioBtn();">Correct Answer?
 			  </label>
           </div>
-          <button type="submit" class="btn btn-primary agb">Add Question</button>
+          <button type="submit" class="btn agb" style="background-color: purple;color: white">Add Question</button>
       </form>
      </div>
     </div>
